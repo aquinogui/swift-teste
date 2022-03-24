@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="light">
+        <div class="container">
+            <header id="header">
+                <div class="logo">
+                    <img src="https://swift-static.online.pro.br/arquivos/swift-logo.svg" alt="">
+                </div>
+
+                <nav id="nav">
+
+                    <ul id="menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Responsabilidade Ambiental</a></li>
+                        <li><a href="">Responsabilidade Social</a></li>
+                    </ul>
+                </nav>
+
+                <!---
+                <div class="busca">
+                    <form action="
+            " class="busca">
+
+                        <label for="busca">
+                            <img src="img/lupa.png" alt="">
+                        </label>
+
+                    </form>
+                </div>-->
+
+                <div id="wrap">
+                    <form action="" autocomplete="on">
+                        <input id="search" name="search" type="text" placeholder="O que você procura ?"><input
+                            id="search_submit" value="Rechercher" type="submit">
+                    </form>
+                </div>
+
+                <button id="btn-mobile">
+                    <span id="hamburger">
+
+                    </span>
+                </button>
+
+            </header>
+        </div>
+
+
+        <section id="slider" class="container">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".slider-projects", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+
+        </section>
+
+
+        <section class="call">
+
+            <div class="container">
+
+                <div class="wrp">
+                    <h2 class="title">Sustentabilidade</h2>
+                    <img src="img/aspas.png" alt="">
+                </div>
+
+                </h2>
+                <div class="clear"></div>
+                <p>O compromisso com o meio ambiente começa em cada um de nós. A swift atua em diversas frentes de
+                    Sustentabilidade para garantir um futuro melhor para o planeta. Você vai poder acompanhar todas as
+                    iniciativas e ações da Swift aqui.</p>
+            </div>
+        </section>
+
+
+        <div class="project-bar container">
+            <img src="https://swift-static.online.pro.br/arquivos/swift-logo.svg" alt="">
+            <div style="clear:both"></div>
+            <h2>Projetos de responsabilidade</h2>
+            <h3>ambiental</h3>
+        </div>
+
+        <section id="projects-banner">
+            <!-- Swiper -->
+            <div class="swiper slider-projects">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/project.jpg" alt="">
+                            <span>100% Embalagens Compensadas</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/project.jpg" alt="">
+                            <span>100% Embalagens Compensadas</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/project.jpg" alt="">
+                            <span>100% Embalagens Compensadas</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/project.jpg" alt="">
+                            <span>100% Embalagens Compensadas</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/project.jpg" alt="">
+                            <span>100% Embalagens Compensadas</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="img/project.jpg" alt="">
+                            <span>100% Embalagens Compensadas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination">
+                    <div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper(".slider-projects", {
+                            breakpoints: {
+                                '1280': {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
+                                '680': {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30,
+                                },
+                                '400': {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30,
+                                },
+                                '350': {
+                                    slidesPerView: 1,
+                                    spaceBetween: 30,
+                                },
+                            },
+
+                        });
+                    </script>
+
+        </section>
+
+    </section>
+
+    <section id="highlights">
+        <h2 class="container">Destaques</h2>
+
+        <div class="container">
+            <div class="swiper slider-news" style="height: 480px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-highlights">
+                            <img src="img/destaque.jpg" alt="">
+                            <h3>Fonte renovavel de energia</h3>
+                            <p>A swift implementou paineis de energia solar (fotovoltaica) em todas vans swift e ja
+                                iniciou
+                                instalacao nas lojas fisicas do estado de São Paulo.</p>
+                            <span>Leia em 3 minutos </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-highlights">
+                            <img src="img/destaque.jpg" alt="">
+                            <h3>Fonte renovavel de energia</h3>
+                            <p>A swift implementou paineis de energia solar (fotovoltaica) em todas vans swift e ja
+                                iniciou
+                                instalacao nas lojas fisicas do estado de São Paulo.</p>
+                            <span>Leia em 3 minutos </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-highlights">
+                            <img src="img/destaque.jpg" alt="">
+                            <h3>Fonte renovavel de energia</h3>
+                            <p>A swift implementou paineis de energia solar (fotovoltaica) em todas vans swift e ja
+                                iniciou
+                                instalacao nas lojas fisicas do estado de São Paulo.</p>
+                            <span>Leia em 3 minutos </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-highlights">
+                            <img src="img/destaque.jpg" alt="">
+                            <h3>Fonte renovavel de energia</h3>
+                            <p>A swift implementou paineis de energia solar (fotovoltaica) em todas vans swift e ja
+                                iniciou
+                                instalacao nas lojas fisicas do estado de São Paulo.</p>
+                            <span>Leia em 3 minutos </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-highlights">
+                            <img src="img/destaque.jpg" alt="">
+                            <h3>Fonte renovavel de energia</h3>
+                            <p>A swift implementou paineis de energia solar (fotovoltaica) em todas vans swift e ja
+                                iniciou
+                                instalacao nas lojas fisicas do estado de São Paulo.</p>
+                            <span>Leia em 3 minutos </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-highlights">
+                            <img src="img/destaque.jpg" alt="">
+                            <h3>Fonte renovavel de energia</h3>
+                            <p>A swift implementou paineis de energia solar (fotovoltaica) em todas vans swift e ja
+                                iniciou
+                                instalacao nas lojas fisicas do estado de São Paulo.</p>
+                            <span>Leia em 3 minutos </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination">
+                    <!-- Initialize Swiper -->
+                    <script>
+                        var swiper = new Swiper(".slider-news", {
+                            breakpoints: {
+                                '1280': {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
+                                '980': {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30,
+                                },
+                                '480': {
+                                    slidesPerView: 2,
+                                    spaceBetween: 10,
+                                },
+                            },
+
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-main" style="margin:60px auto;">
+            + posts
+        </div>
+
+        <section id="timeline" class="container">
+            <img src="img/timeline.jpg" alt="">
+        </section>
+
+
+        
+
+
+
+
+
+
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/script.js"></script>
+
+
+
+
+
+
+</body>
+
+
+</html>
