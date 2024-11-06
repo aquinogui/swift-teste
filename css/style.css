@@ -85,7 +85,7 @@ body {
 
 input[type="text"] {
     height: 60px;
-    font-size: 22px;
+    font-size: 20px;
     display: inline-block;
     font-family: inherit;
     font-weight: 100;
@@ -110,11 +110,12 @@ input[type="text"]:focus:hover {
 }
 
 input[type="text"]:focus {
-    width: 330px;
+    width: 315px;
     z-index: 1;
     background: #eefff7;
     border-bottom: 1px solid #6e706f;
     cursor: text;
+    padding-left: 15px;
 }
 
 input[type="submit"] {
