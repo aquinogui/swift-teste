@@ -58,6 +58,7 @@ body {
 
 #menu li a:hover {
     color: #ea5220;
+    transition: background-color 0.3s ease;
 }
 
 .busca {
@@ -388,6 +389,12 @@ input[type="submit"]:hover {
     text-transform: uppercase;
 }
 
+.btn-main:hover {
+    border: 2px solid white;
+    color: #fff;
+    background: #01913c;
+    transition: background-color 0.3s ease;
+}
 
 
 /*RESPONSIVO DETALHES HOME */
@@ -629,6 +636,12 @@ input[type="submit"]:hover {
     color: #ff9e33;
     border: 2px solid #ff9e33;
     background: none;
+}
+
+#light2 .btn-main:hover {
+    background-color: #d35f16;
+    color:#fff;
+    border: 2px solid white;
 }
 
 
